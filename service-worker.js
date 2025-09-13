@@ -10,7 +10,9 @@ const ASSETS_TO_CACHE = [
   './icons/icon-152x152.png',
   './icons/icon-192x192.png',
   './icons/icon-384x384.png',
-  './icons/icon-512x512.png'
+  './icons/icon-512x512.png',
+  './qr-scanner.min.js',
+  './qr-scanner-worker.min.js'
 ];
 
 // Install service worker and cache assets
