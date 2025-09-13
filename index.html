@@ -386,10 +386,10 @@
 <button class="install-button" id="installButton">Install App</button>
 
 <script type="module">
-    import QrScanner from "https://cdn.jsdelivr.net/npm/qr-scanner@1.4.2/qr-scanner.min.js";
+    import QrScanner from "./qr-scanner.min.js";
 
     // Ensure worker path is set (loads from CDN)
-    QrScanner.WORKER_PATH = 'https://cdn.jsdelivr.net/npm/qr-scanner@1.4.2/qr-scanner-worker.min.js';
+    QrScanner.WORKER_PATH = './qr-scanner-worker.min.js';
 
     // Helper beep function
     function beepAndVibrate() {
